@@ -1,0 +1,140 @@
+/* For mobile phones: */
+[class*="coll-"] {
+  width: 100%;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .coll-s-1 {width: 8.33%;}
+  .coll-s-2 {width: 16.66%;}
+  .coll-s-3 {width: 25%;}
+  .coll-s-4 {width: 33.33%;}
+  .coll-s-5 {width: 41.66%;}
+  .coll-s-6 {width: 50%;}
+  .coll-s-7 {width: 58.33%;}
+  .coll-s-8 {width: 66.66%;}
+  .coll-s-9 {width: 75%;}
+  .coll-s-10 {width: 83.33%;}
+  .coll-s-11 {width: 91.66%;}
+  .coll-s-12 {width: 100%;}
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .coll-1 {width: 8.33%;}
+  .coll-2 {width: 16.66%;}
+  .coll-3 {width: 25%;}
+  .coll-4 {width: 33.33%;}
+  .coll-5 {width: 41.66%;}
+  .coll-6 {width: 50%;}
+  .coll-7 {width: 58.33%;}
+  .coll-8 {width: 66.66%;}
+  .coll-9 {width: 75%;}
+  .coll-10 {width: 83.33%;}
+  .coll-11 {width: 91.66%;}
+  .coll-12 {width: 100%;}
+}
+
+
+
+
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+
+body{
+transition: all ease 600ms;
+}
+
+.containerr{
+display: flex;
+max-width: 1440px;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+.containerr .roww{
+display: flex;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.sec{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+.accordion{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 1px solid rgba(0, 0, 0, 0.527);
+border-radius: 8px;
+margin-top: 10px;
+}
+span{
+display: flex;
+flex-wrap: wrap;
+padding: 12px;
+margin-bottom: 8px;
+font-family: sans-serif;
+justify-content: space-between;
+flex-direction: column;
+font-size: 20px;
+border-radius: 8px;
+background-color: white;
+width: 100%;
+}
+span::before{
+content: "\2304";
+display: flex;
+font-size: 22px;
+justify-content: right;
+font-weight: 800;
+font-family: sans-serif;
+cursor: pointer;
+}
+
+.content{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+font-size: 18px;
+background-color: burlywood;
+border: 1px solid rgba(0, 0, 0, 0.452);
+padding: 0px;  
+text-align: center;
+max-height: 0;
+overflow: hidden;
+flex-direction: column;
+transition: all 500ms ease-in;
+}
+
+.active{
+max-height: 150px;
+}
+
+.txt{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+font-family: sans-serif;
+font-weight: 500;
+text-align: justify;
+}
+
