@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Accordion</title>
+</head>
+
+<body>
+    <div class="containerr">
+        <div class="roww">
+            <div class="coll-4 sec" id="accordion">
+                <div class="coll- accordion">
+
+                    <span>Stories
+                        <div class="coll- content">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+                        </div>
+                    </span>
+
+                    <span>Books<div class="coll- content">
+                            Blanditiis in ab quos veritatis omnis ad
+                            delectus reiciendis eaque sint autem
+                            delectus reiciendis eaque sint autem
+                        </div>
+                    </span>
+                    <span>Fitness <div class="coll- content">
+                            maxime hic veniam quos
+                            fugit aspernatur voluptatem dignissimos vitae
+                            delectus reiciendis eaque sint autem
+                            delectus reiciendis eaque sint autem
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+</body>
+
+</html>
